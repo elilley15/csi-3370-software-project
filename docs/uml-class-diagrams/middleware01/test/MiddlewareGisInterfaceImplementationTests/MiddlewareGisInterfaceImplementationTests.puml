@@ -1,9 +1,9 @@
 @startuml MiddlewareGisInterfaceImplementationTests
 
 package edu.oakland.test.middleware01 {
-    class MiddlewareGisInterfaceImplementationTests {
-
-    }
+  class MiddlewareGisInterfaceImplementationTests {
+    + void receiveGpsSignalStrength()
+  }
 }
 
 @enduml

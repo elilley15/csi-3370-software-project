@@ -1,9 +1,21 @@
 @startuml MiddlewareGisManagerImplementationTests
 
 package edu.oakland.test.middleware01 {
-    class MiddlewareGisManagerImplementationTests {
-
-    }
+  class MiddlewareGisManagerImplementationTests {
+    + void receiveGpsSignalStrength()
+    + void storeLocationDataPoint()
+    + void attemptToRegainGpsLock()
+    + void evaluateGpsSignalStrength()
+    + void enterDegradedMode()
+    + void degradedModeStoreRequest()
+    + void gpsPrioritizeListRetrievalRequest()
+    + void selectNewGps()
+    + void enterNormalMode()
+    + void enterStandbyMode()
+    + void evaluateGpsPrioritizedList()
+    + void storeGpsPrioritizedList()
+    + void standbyModeStoreRequest()
+  }
 }
 
 @enduml
