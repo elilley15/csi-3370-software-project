@@ -3,25 +3,30 @@ package edu.oakland.production.database;
 import edu.oakland.helper.admin.LocationDataPoint;
 import edu.oakland.helper.admin.TrackData;
 
+public class DatabasePersistentStorage {
+        public int locateRfidData(){
+            return 0;
+        }
+        public LocationDataPoint getLocationDataPoint(int offset){
+            return null;
+        }
+        public void storeLocationDataPoint(LocationDataPoint locationDataPoint){
 
-public interface DatabasePersistentStorage {
+        }
+        public TrackData getTrackData(int offset){
+            return null;
+        }
+        public void storeTrackData(TrackData trackData){
 
-  public int locateRfidData();
+        }
+        public String getMode(){
+            return "";
+        }
 
-  public LocationDataPoint getLocationDataPoint(int offset);
+        public void storeMode(String mode){
 
-  public void storeLocationDataPoint(LocationDataPoint locationDataPoint);
-
-  public TrackData getTrackData(int offset);
-
-  public void storeTrackData(TrackData trackData);
-
-  public String getMode();
-
-  public void storeMode(String mode);
-
-  public String getNextSat(String currentSat);
-
-
+        }
+        public String getNextSat(String currentSat){
+            return "";
+        }
 }
-
