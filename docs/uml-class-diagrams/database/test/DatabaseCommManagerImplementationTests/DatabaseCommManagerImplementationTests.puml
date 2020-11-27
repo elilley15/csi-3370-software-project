@@ -2,6 +2,12 @@
 
 package edu.oakland.test.database {
     class DatabaseCommManagerImplementationTests {
+        + void rfidInIsRfidOut()
+        + void offsetMatchDataPoint()
+        + void offsetMatchTrackData()
+        + void trackDataInIsTrackDataOut()
+        + void databasePersistentStorageIsNotNull() 
+        //Should there be a mode request?
 
     }
 }
