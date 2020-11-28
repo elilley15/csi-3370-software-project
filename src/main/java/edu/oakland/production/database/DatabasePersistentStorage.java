@@ -5,7 +5,7 @@ import edu.oakland.helper.admin.TrackData;
 
 public class DatabasePersistentStorage {
 
-  public int locateRfidData(){
+  public int locateRfidData() {
     return 0;
   }
 
