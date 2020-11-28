@@ -2,7 +2,14 @@
 
 package edu.oakland.test.middleware02 {
     class MiddlewareCommLinkManagerImplementationTests {
+<<<<<<< Updated upstream
 
+=======
+      + void verifyTrackLengthTest()
+      + void rfidInIsRfidOut()
+      + void gpsDataInIsGpsDataOut()
+      + void trackDataInIsTrackDataOut()
+>>>>>>> Stashed changes
     }
 }
 
