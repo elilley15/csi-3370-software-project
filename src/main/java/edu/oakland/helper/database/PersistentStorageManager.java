@@ -2,43 +2,43 @@ package edu.oakland.helper.database;
 
 public class PersistentStorageManager {
 
-  public DatabasePersistentStorage readPersistentData(){
+  public DatabasePersistentStorage readPersistentData() {
     return null;
   }
 
-  public void writePersistentData(){
+  public void writePersistentData() {
 
   } 
 
-  public DatabasePersistentStorageImplementation deserializeData(String data){
-  	return null;
+  public DatabasePersistentStorageImplementation deserializeData(String data) {
+    return null;
   }
 
-  public String serializeData(DatabasePersistentStorageImplementation data){
-  	return "";
+  public String serializeData(DatabasePersistentStorageImplementation data) {
+    return "";
   }
 
-  private boolean inputFileExists(){
+  private boolean inputFileExists() {
   	return false;
   }
 
-  private boolean outputFileExists(){
-  	return false;
+  private boolean outputFileExists() {
+    return false;
   }
 
-  private void createInputFile(){
-
-  }
-
-  private void createOutputFile(){
+  private void createInputFile() {
 
   }
 
-  private String readInputFile(){
-  	return "";
+  private void createOutputFile() {
+
   }
 
-  private void writeOutputFile(){
+  private String readInputFile() {
+    return "";
+  }
+
+  private void writeOutputFile() {
 
   }
 
