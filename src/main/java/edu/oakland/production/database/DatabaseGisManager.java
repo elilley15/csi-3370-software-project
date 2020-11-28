@@ -4,15 +4,15 @@ import edu.oakland.helper.admin.LocationDataPoint;
 
 public class DatabaseGisManager {
 
-  public void passStoreRequest(LocationDataPoint locationDataPoint){
+  public void passStoreRequest(LocationDataPoint locationDataPoint) {
 
   }
 
-  public void passModeRequest(String mode){
+  public void passModeRequest(String mode) {
 
   }
 
-  public String passNextSatRequest(String currentSat){
+  public String passNextSatRequest(String currentSat) {
     return "";
   }
   

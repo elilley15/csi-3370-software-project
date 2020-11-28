@@ -2,10 +2,10 @@ package edu.oakland.test.database;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import edu.oakland.production.database.DatabaseCommManager;
-import edu.oakland.production.database.DatabasePersistentStorage;
 import edu.oakland.helper.admin.LocationDataPoint;
 import edu.oakland.helper.admin.TrackData;
+import edu.oakland.production.database.DatabaseCommManager;
+import edu.oakland.production.database.DatabasePersistentStorage;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
