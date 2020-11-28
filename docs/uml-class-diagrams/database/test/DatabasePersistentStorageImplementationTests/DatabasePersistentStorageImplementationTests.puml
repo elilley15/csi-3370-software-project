@@ -10,6 +10,12 @@ package edu.oakland.test.database {
         + void readModeInIsModeOut()
         + void writeModeInIsModeOut()
         + void currentSatMatchNextSat()
+        + void cannotStoreNullLocationDataPoint()
+        + void cannotStoreNullTrackData()
+        + void locationDataPointOffsetOutOfBoundsReturnsNull()
+        + void trackDataOffsetOutOfBoundsReturnsNull()
+        + void nonexistentSatelliteNameReturnsEmptyNext()
+        + void lastSatelliteNameInListReturnsEmptyNext()
     }
 }
 
