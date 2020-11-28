@@ -19,45 +19,45 @@ public class DatabaseCommManagerTest {
 
   @Test
   @DisplayName("rfid going in is Rfid coming Out")
-  void rfidInIsRfidOut(){
+  void rfidInIsRfidOut() {
     DatabaseCommManager dcm = new DatabaseCommManager();
-    int i = (int)Math.random();
+    int i = (int) Math.random();
     assertEquals(i, dcm.passGetRfidRequest());
   }
 
   @Test
   @DisplayName("Offset matches Datapoint")
-  void offsetMatchDataPoint(){
+  void offsetMatchDataPoint() {
     DatabaseCommManager dcm = new DatabaseCommManager();
     LocationDataPoint ldp = new LocationDataPoint();
     ldp = null;
-    int i = (int)Math.random();
+    int i = (int) Math.random();
     assertEquals(ldp, dcm.passGetLocationDataPointRequest(i));
   }
 
   @Test
   @DisplayName("Offset matches TrackData")
-  void offsetMatchTrackData(){
+  void offsetMatchTrackData() {
     DatabaseCommManager dcm = new DatabaseCommManager();
-    TrackData tD = new TrackData();
-    tD = null;
-    int i = (int)Math.random();
-    assertEquals(tD, dcm.passGetTrackDataRequest(i));
+    TrackData td = new TrackData();
+    td = null;
+    int i = (int) Math.random();
+    assertEquals(td, dcm.passGetTrackDataRequest(i));
   }
 
   @Test
   @DisplayName("TrackData In is same as TrackData Out")
-  void trackDataInIsTrackDataOut(){
+  void trackDataInIsTrackDataOut() {
     DatabaseCommManager dcm = new DatabaseCommManager();
-    TrackData tD = new TrackData();
-    int i = (int)Math.random();
-    dcm.passStoreTrackDataRequest(tD);
-    assertEquals(tD, dcm.passGetTrackDataRequest(i));
+    TrackData td = new TrackData();
+    int i = (int) Math.random();
+    dcm.passStoreTrackDataRequest(td);
+    assertEquals(td, dcm.passGetTrackDataRequest(i));
   }
 
   @Test
   @DisplayName("Database Persistent Storage is not Null")
-  void databasePersistentStorageIsNotNull(){
+  void databasePersistentStorageIsNotNull() {
     DatabaseCommManager dcm = new DatabaseCommManager();
     String n = "normal";
     assertEquals(n, dcm.passGetModeRequest());
