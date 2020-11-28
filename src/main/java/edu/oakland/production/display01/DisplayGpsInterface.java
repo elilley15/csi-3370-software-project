@@ -6,10 +6,10 @@ public interface DisplayGpsInterface {
 
   public boolean receiveGpsSignal(Satellite satelliteSignal);
 
-  public String reportGpsSignalLoss(String satelliteName);
+  public String reportGpsSignalLoss(Satellite satelliteSignal);
 
-  public int recheckSignalStrength(String satelliteName);
+  public int recheckSignalStrength(Satellite satelliteSignal);
 
-  public int checkSignalStrength(String satelliteName);
+  public int checkSignalStrength(Satellite satelliteSignal);
 
 }
