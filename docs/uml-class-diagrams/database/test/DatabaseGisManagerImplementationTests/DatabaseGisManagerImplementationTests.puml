@@ -4,7 +4,7 @@ package edu.oakland.test.database {
     class DatabaseGisManagerImplementationTests {
         + void dataPointInIsDataPointOut()
         + void modeInIsModeOut()
-        + void currentSatMatchNextSat()
+        + void currentSatGetNextSat()
         + void persistentStorageIsNotNull()
     }
 }
