@@ -4,7 +4,7 @@ package edu.oakland.production.database {
     class DatabaseCommInterfaceImplementation {
         - DatabaseCommManager databaseCommManager
         __
-        DatabaseCommInterface(DatabaseCommManager databaseCommManager)
+        + DatabaseCommInterface(DatabaseCommManager databaseCommManager)
         .. Use Case 1 ..
         + int receiveGetRfidRequest()
         + LocationDataPoint receiveGetLocationDataPointRequest(int offset)
