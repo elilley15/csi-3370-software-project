@@ -1,0 +1,13 @@
+@startuml DisplayGpsManagerImplementationTests
+
+package edu.oakland.display01.tests {
+    class DisplayGpsManagerImplementationTests {
+        + void receivedGpsSignalStregnths()
+        + void evaluateGpsSignalStrengths()
+        + void acceptableGpsSignalStrengths()
+        + void poorGpsSignalStrengths()
+        + 
+    }
+}
+
+@enduml
